@@ -6,7 +6,7 @@ export default function Mainbody() {
     return (
 
         <div style={{ position: 'relative' }}>
-            <img src={main} alt="Main" className='md:lg:w-full'/>
+            <img src={main} alt="Main" className=''/>
             <div style={{ position: 'absolute', top: 0 }} className='md:lg:left-[-20px]  md:2xl:left-[100px]' >
                 <Navbar /></div>
             <div className=' absolute text-center top-20 md:lg:top-60 md:lg:left-[300px] md:2xl:left-[420px]'>

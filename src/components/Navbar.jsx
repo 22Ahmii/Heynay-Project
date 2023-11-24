@@ -36,11 +36,11 @@ export default function Navbar() {
                             </svg>
                         </button>
                     </div>
-                    <a href="#" className="block text-blue-900 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Introduction</a>
-                    <a href="#" className="block text-blue-900 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Our Mission</a>
-                    <a href="#" className="block text-blue-900 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Features</a>
-                    <a href="#" className="block text-blue-900 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Comparisons</a>
-                    <a href="#" className="block text-blue-900 hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Join waitlist</a>
+                    <a href="#" className="block text-blue-900 hover:bg-blue-300  hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2 ">Introduction</a>
+                    <a href="#" className="block text-blue-900 hover:bg-blue-300  hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Our Mission</a>
+                    <a href="#" className="block text-blue-900 hover:bg-blue-300  hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Features</a>
+                    <a href="#" className="block text-blue-900 hover:bg-blue-300  hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Comparisons</a>
+                    <a href="#" className="block text-blue-900 hover:bg-blue-300  hover:text-gray-900 px-3 py-2 rounded-md text-sm font-medium mb-2">Join waitlist</a>
                 </div>
             </div>
         </nav>
