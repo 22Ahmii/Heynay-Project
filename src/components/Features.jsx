@@ -12,10 +12,13 @@ import rectangle28 from '../assests/images/rectangle28.png'
 import card4 from '../assests/images/card4.png'
 import circle2 from '../assests/images/circle2.png'
 import image4 from '../assests/images/image4.png'
-import rectangle34 from '../assests/images/rectangle34.png'
+import rectangle31 from '../assests/images/rectangle31.png'
 import ellipse2 from '../assests/images/ellipse2.png'
 import image5 from '../assests/images/image5.png'
 import rectangle33 from '../assests/images/rectangle33.png'
+import frame1 from '../assests/images/frame1.png'
+import group1 from '../assests/images/group1.png'
+import group2 from '../assests/images/group2.png'
 export default function Features() {
     return (
         <>
@@ -80,22 +83,22 @@ export default function Features() {
                         className="h-[260px] lg:h-[350px] ml-14 lg:ml-[190px] mt-10 lg:order-1 lg:mr-8"
                         alt="Connection Platform"
                     />
-                      <img
+                    <img
                         src={rectangle28}
                         className=" absolute h-[110px] lg:h-[160px] ml-8 lg:ml-[150px] lg:mt-[-130px] mt-[-80px] lg:order-1 lg:mr-8"
                         alt="Connection Platform"
                     />
-                     <img
+                    <img
                         src={card4}
                         className=" absolute h-[80px] lg:h-[150px] ml-[200px] lg:ml-[310px] lg:mt-[-430px] mt-[-294px] lg:order-1 lg:mr-8"
                         alt="Connection Platform"
                     />
-                     <img
+                    <img
                         src={circle2}
                         className=" absolute h-[50px] lg:h-[70px] ml-10 lg:ml-[160px] lg:mt-[-280px] mt-[-200px] lg:order-1 lg:mr-8"
                         alt="Connection Platform"
                     />
-                        <img
+                    <img
                         src={image4}
                         className=" absolute h-[30px] lg:h-[44px] ml-12 lg:ml-[177px] lg:mt-[-270px] mt-[-190px] lg:order-1 lg:mr-8"
                         alt="Connection Platform"
@@ -120,27 +123,56 @@ export default function Features() {
                     </p>
                 </div>
             </div>
-            <div className="lg:flex lg:items-center lg:mt-20 lg:justify-center">
+            <div className="lg:flex lg:items-center lg:mt-40 lg:justify-center">
                 {/* For larger screens, heading and paragraph on the left */}
                 <div className="lg:order-2 lg:ml-8">
-                    <h2 className="lg:text-4xl text-4xl hidden lg:block font-semibold text-blue-950">Community Polls<br/>and Surveys</h2>
+                    <h2 className="lg:text-4xl text-4xl hidden lg:block font-semibold text-blue-950">Community Polls<br />and Surveys</h2>
                     {/* For larger screens, the paragraph is displayed here */}
                     <p className="text-xs hidden lg:block text-blue-950 mt-4">
-                    Create and distribute polls and surveys to empower residents to voice<br /> their opinions, provide feedback, and participate in community  <br />decision-making processes.
+                        Create and distribute polls and surveys to empower residents to voice<br /> their opinions, provide feedback, and participate in community  <br />decision-making processes.
                     </p>
                 </div>
 
                 {/* For larger screens, image on the right */}
                 <img
-                    src={rectangle34}
-                    className="h-[280px] lg:h-[500px] ml-14 lg:ml-[-270px] mt-10 lg:order-1 lg:mr-8"
+                    src={rectangle31}
+                    className="h-[260px] lg:h-[500px] ml-14 lg:ml-[-270px] mt-10 lg:order-1 lg:mr-8"
                     alt="Connection Platform"
                 />
-                 {/* <img
-                    src={rectangle33}
-                    className="absolute h-[90px] mt-[-110px] lg:h-[250px] lg:ml-[-610px] lg:mt-[-360px] lg:order-1 lg:mr-80"
-                    alt="Connection Platform"
-                />   
+                <card>
+                    <img
+                        src={rectangle33}
+                        className="absolute h-[160px] mt-[-290px] ml-20 lg:h-[250px] lg:ml-[-230px] lg:mt-[-360px] lg:order-1 lg:mr-80"
+                        alt="Connection Platform"
+                    />
+                    <img
+                        src={frame1}
+                        className="absolute h-[10px] ml-[94px] mt-[-274px] lg:h-[20px] lg:ml-[-190px] lg:mt-[-330px] lg:order-1 lg:mr-80"
+                        alt="Connection Platform"
+                    />
+                    <p className='absolute font-semibold text-xs lg:text-sm lg:p-0  text-blue-950 h-[10px] ml-[93px] mt-[-260px] lg:h-[20px] lg:ml-[-190px] lg:mt-[-290px] lg:order-1 lg:mr-80'>
+                        Does the updated Town Hall <br />
+                        meeting date work for you?
+                    </p>
+                    <img
+                        src={group1}
+                        className="absolute h-[24px] ml-[99px] mt-[-219px] lg:h-[30px] lg:ml-[-190px] lg:mt-[-240px] lg:order-1 lg:mr-80"
+                        alt="Connection Platform"
+                    />
+                    <div class=" absolute ml-[130px] w-[100px] mt-[-176px] lg:w-[150px] bg-purple-200 lg:mt-[-228px] lg:ml-[-140px] rounded-full h-3 dark:bg-gray-700">
+                        <div class="bg-purple-600 h-3 rounded-full" style={{ width: '65%' }}>
+                        </div>
+                    </div>
+                    <img
+                        src={group2}
+                        className="absolute h-[24px] ml-[99px] mt-[-184px] lg:h-[30px] lg:ml-[-190px] lg:mt-[-190px] lg:order-1 lg:mr-80"
+                        alt="Connection Platform"
+                    />
+                    <div class=" absolute  ml-[130px] w-[100px] mt-[-212px] lg:w-[150px] bg-purple-200 lg:mt-[-179px] lg:ml-[-140px] rounded-full h-3 dark:bg-gray-700">
+                        <div class="bg-purple-600 h-3 rounded-full" style={{ width: '30%' }}>
+                        </div>
+                    </div>
+                </card>
                 <img
                     src={ellipse2}
                     className="absolute h-[80px] mt-[-110px] ml-[300px] lg:h-[90px] lg:ml-[160px] lg:mt-[210px]  lg:order-1 lg:mr-80"
@@ -150,12 +182,12 @@ export default function Features() {
                     src={image5}
                     className="absolute h-[50px] mt-[-98px]  ml-[315px] lg:h-[60px] lg:ml-[160px] lg:mt-[210px]  lg:order-1 lg:mr-80"
                     alt="Connection Platform"
-                /> */}
+                />
                 {/* For mobile screens, the paragraph is displayed below the image */}
                 <div className="lg:hidden">
-                    <h2 className="lg:text-4xl text-4xl ml-8  mt-14 font-semibold text-blue-950">Community Polls<br/>and Surveys</h2>
+                    <h2 className="lg:text-4xl text-4xl ml-8  mt-14 font-semibold text-blue-950">Community Polls<br />and Surveys</h2>
                     <p className="text-xs text-blue-950 ml-8 mt-4">
-                    Create and distribute polls and surveys to empower residents to voice <br />their opinions, provide feedback, and participate in community  <br />decision-making processes.
+                        Create and distribute polls and surveys to empower residents to voice <br />their opinions, provide feedback, and participate in community  <br />decision-making processes.
                     </p>
                 </div>
             </div>
