@@ -12,16 +12,17 @@ import rectangle28 from '../assests/images/rectangle28.png'
 import card4 from '../assests/images/card4.png'
 import circle2 from '../assests/images/circle2.png'
 import image4 from '../assests/images/image4.png'
-import rectangle31 from '../assests/images/rectangle31.png'
+import rectangle34 from '../assests/images/rectangle34.png'
 import ellipse2 from '../assests/images/ellipse2.png'
 import image5 from '../assests/images/image5.png'
+import rectangle33 from '../assests/images/rectangle33.png'
 export default function Features() {
     return (
         <>
             <div className=" top-1/2  -translate-y-1/2 text-center">
-                <img src={vector1} alt="vector" className="h-10 ml-[200px] mt-[160px] md:lg:h-12 md:lg:p-0  md:lg:ml-[00px] md:lg:mt-[120px] md:2xl:mt-[270px] md:2xl:ml-[922px] " />
-                <img src={image2} alt="image2" className=" h-7 ml-[220px] mt-[-15px] md:lg:h-6 md:lg:p-0    md:lg:top-[-510px] md:2xl:ml-[945px]  md:2xl:mt-[-18px] left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
-                <h1 className=" md:lg:text-4xl md:2xl:text-8xl text-5xl mb-[-30px] font-normal  mt-[20px]  md:lg:mt-[-460px] md:lg:mb-[-20px] md:2xl:mt-[40px] md:lg:font-normal  text-blue-950 mb-4">Features</h1>
+                <img src={vector1} alt="vector" className="h-10 ml-[200px] mt-[160px] lg:h-12 lg:mt-[200px] lg:ml-[663px] 2xl:ml-[832px] " />
+                <img src={image2} alt="image2" className=" h-7 ml-[210px] mt-[-26px] lg:h-7  lg:ml-[682px] 2xl:ml-[849px]  lg:mt-[-26px] " />
+                <h1 className=" md:lg:text-6xl md:2xl:text-8xl text-5xl mb-[-30px] font-normal  mt-[20px]  lg:mb-[-20px] lg:mt-[40px] lg:font-normal  text-blue-950 mb-4">Features</h1>
             </div>
             <div className="lg:flex lg:items-center lg:justify-center">
                 {/* For larger screens, heading and paragraph on the left */}
@@ -131,15 +132,15 @@ export default function Features() {
 
                 {/* For larger screens, image on the right */}
                 <img
-                    src={rectangle31}
-                    className="h-[260px] lg:h-[500px] ml-14 lg:ml-[-270px] mt-10 lg:order-1 lg:mr-8"
+                    src={rectangle34}
+                    className="h-[280px] lg:h-[500px] ml-14 lg:ml-[-270px] mt-10 lg:order-1 lg:mr-8"
                     alt="Connection Platform"
                 />
-                {/* <img
-                    src={circle1}
-                    className="absolute h-[90px] mt-[-110px] lg:h-[200px] lg:ml-[-980px] lg:mt-60 lg:order-1 lg:mr-80"
+                 {/* <img
+                    src={rectangle33}
+                    className="absolute h-[90px] mt-[-110px] lg:h-[250px] lg:ml-[-610px] lg:mt-[-360px] lg:order-1 lg:mr-80"
                     alt="Connection Platform"
-                />   */}
+                />   
                 <img
                     src={ellipse2}
                     className="absolute h-[80px] mt-[-110px] ml-[300px] lg:h-[90px] lg:ml-[160px] lg:mt-[210px]  lg:order-1 lg:mr-80"
@@ -149,7 +150,7 @@ export default function Features() {
                     src={image5}
                     className="absolute h-[50px] mt-[-98px]  ml-[315px] lg:h-[60px] lg:ml-[160px] lg:mt-[210px]  lg:order-1 lg:mr-80"
                     alt="Connection Platform"
-                />
+                /> */}
                 {/* For mobile screens, the paragraph is displayed below the image */}
                 <div className="lg:hidden">
                     <h2 className="lg:text-4xl text-4xl ml-8  mt-14 font-semibold text-blue-950">Community Polls<br/>and Surveys</h2>
