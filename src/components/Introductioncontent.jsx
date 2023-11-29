@@ -9,7 +9,7 @@ import image1  from '../assests/logo/image1.png'
 import iphone  from '../assests/images/iphone.png'
 import frame from '../assests/images/frame.png'
 import card from '../assests/images/card.png'
-function IntoductionContent() {
+export default function Introductioncontent() {
     return (
         <div className="relative ">
             <img src={rectangle} alt="rectangle" className="block md:lg:h-auto h-[700px] md:lg:p-4 mx-auto" />
@@ -30,4 +30,3 @@ function IntoductionContent() {
     )
 }
 
-export default IntoductionContent;
